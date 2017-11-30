@@ -15,7 +15,3 @@ script:
 cache:
   directories:
     - $HOME/.composer/cache/files
-
-matrix:
-  allow_failures:
-  - php: 7.1
