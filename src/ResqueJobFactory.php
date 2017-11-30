@@ -1,7 +1,7 @@
 <?php
 namespace webignition\ResqueJobFactory;
 
-use ResqueBundle\Resque\Job;
+use ResqueBundle\Resque\ContainerAwareJob;
 
 class ResqueJobFactory
 {
@@ -30,7 +30,7 @@ class ResqueJobFactory
      * @param string $queue
      * @param array $args
      *
-     * @return Job
+     * @return ContainerAwareJob
      */
     public function create($queue, $args = [])
     {
@@ -68,7 +68,7 @@ class ResqueJobFactory
 
         $jobClassName = $queueProperties[self::KEY_JOB_CLASS_NAME];
 
-        /* @var Job $job */
+        /* @var ContainerAwareJob $job */
         $job = new $jobClassName($args);
         $job->queue = $queue;
 
