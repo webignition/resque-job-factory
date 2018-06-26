@@ -31,7 +31,7 @@
     },
     "require": {
         "php": ">=5.6.0",
-        "resquebundle/resque": "2.0.1",
+        "resquebundle/resque": "^2",
         "chrisboulton/php-resque": "dev-master#968b7e6a307a2079051dfc571d2fc2be0546209f",
         "chrisboulton/php-resque-scheduler": "dev-master#5954c989026f1bbc6443c02078a655333e152242"
     },

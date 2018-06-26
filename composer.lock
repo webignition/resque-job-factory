@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78236aa092ab33f490b962d55b903773",
+    "content-hash": "fafdd7794763e44cf04d7a0f87561da7",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -379,16 +379,16 @@
         },
         {
             "name": "resquebundle/resque",
-            "version": "2.0.1",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/resquebundle/resque.git",
-                "reference": "a412019efd13db145134d40cae3ae9c9271036ec"
+                "reference": "8742b7fd0635c5d0ae1ca00b56aa4ee67f5470f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/resquebundle/resque/zipball/a412019efd13db145134d40cae3ae9c9271036ec",
-                "reference": "a412019efd13db145134d40cae3ae9c9271036ec",
+                "url": "https://api.github.com/repos/resquebundle/resque/zipball/8742b7fd0635c5d0ae1ca00b56aa4ee67f5470f6",
+                "reference": "8742b7fd0635c5d0ae1ca00b56aa4ee67f5470f6",
                 "shasum": ""
             },
             "require": {
@@ -444,7 +444,7 @@
                 "symfony",
                 "symfony3"
             ],
-            "time": "2018-03-13T18:03:40+00:00"
+            "time": "2018-04-01T23:38:20+00:00"
         },
         {
             "name": "symfony/cache",
